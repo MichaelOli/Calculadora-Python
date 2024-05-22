@@ -34,4 +34,16 @@ while True:
         case _:
             print('Operação inválida')
             continue
+    
+    #Perguntar ao cliente se ele deseja continuar ou encerrar o programa.
+    while True:
+        continuar = str(input('Deseja continuar? (Digite para "s" SIM ou n "para" NÃO)'))
+        match continuar:
+            case 's':
+                continue
+            case 'n':
+                break
+            case _:        
+                print('Por favor escolha uma opção válida.')
+                continue
 
