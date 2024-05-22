@@ -1,4 +1,4 @@
-'''1. Crie um programa que receba 2 números do usuário, eque ele possa escolher um das 4 operações matemáticas
+'''1. Crie um programa que receba 2 números do usuário, e que ele possa escolher um das 4 operações matemáticas
 para calcular os dois números. O programa deverá exibir na tela o resultado da conta matemática. O programa deverá
 dar também ao usuário uma opção para sair do programa caso deseje, e que ele possa fazer quantos cálculos desejar.'''
 
@@ -7,7 +7,7 @@ while True:
     n1= str(input('Informe o primeiro número: ')).replace(',','.')
     n2 = str(input('Informe o segundo número: ')).replace(',', '.')
 
-#conversao para os numeros decimais
+#conversao para os números decimais
     n1 = float(n1)
     n2 = float(n2)
 
@@ -30,7 +30,7 @@ while True:
         case '/':
             print(f'A divisão é: {n1/n2}.')
         case '%':
-            print(f'A subtração é: {n1%n2}.')
+            print(f'O resto da divisão é: {n1%n2}.')
         case _:
             print('Operação inválida')
             continue
